@@ -1,0 +1,9 @@
+{
+    "id": "joomla",
+    "image": "joomla",
+    "dependencies": ["db"],
+    "env": {
+        "JOOMLA_DB_HOST": "db:3306",
+        "JOOMLA_DB_PASSWORD": "passw0rd"
+    }
+}

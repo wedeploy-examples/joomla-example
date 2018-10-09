@@ -1,0 +1,10 @@
+{
+  "id": "db",
+  "env": {
+    "MYSQL_ROOT_PASSWORD": "passw0rd"
+  },
+  "volumes": {
+    "data": "/var/lib/mysql"
+  },
+  "zeroDowntime": false
+}
